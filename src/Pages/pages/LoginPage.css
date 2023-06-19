@@ -1,0 +1,281 @@
+
+
+ 
+
+ #inputGrid{
+  line-height: 80px;
+}
+
+#inputGridBox{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+ #mainImage{
+    height:'120vh'
+ }
+
+ #inputGrid{
+  /* line-height: 800px; */
+  margin-top: 100px;
+}
+}
+
+@media only screen and (max-width: 992px){
+#inputGridBox{
+  width:90%;
+}
+#SignupText{
+  font-size: 15px;
+}
+#mainHead{
+  font-size: 12px;
+}
+#inputSpan{
+  padding:20px ;
+}
+#login{
+  font-size: 45px;
+  font-weight: 800px;
+  margin-top: 60px;
+}
+
+}
+
+@media only screen and (min-width: 1043px){
+  
+  #inputGrid{
+  top: 60%;
+  }
+  #card{
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  
+  }
+
+@media only screen and (max-width: 1043px){
+#bgimg{
+height:120%;
+}
+#logo{
+top:14%;
+}
+
+#login{
+margin-top: 80px;
+}
+#inputGrid{
+top: 60%;
+}
+
+}
+
+@media only screen and (max-width: 1020px){
+#inputGrid{
+width:95%;
+}
+#bgimg{
+height:130%;
+}
+
+}
+
+@media only screen and (max-width: 676px){
+
+#bgimg{
+height:150%;
+}
+#upperbox{
+font-size: 13px;
+}
+#logo{
+margin-top: 12px;
+}
+}
+
+@media only screen and (max-width: 535px){
+
+  #inputGrid{
+    /* line-height: 800px; */
+    margin-top: 50px;
+  }
+
+#bgimg{
+height:190%;
+}
+#upperbox{
+font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 871px){
+
+#upperbox{
+font-size: 15px;
+}
+#logo{
+margin-top: 14px;
+}
+}
+
+
+@media only screen and (max-width: 813px){
+  #inputGrid{
+    /* line-height: 800px; */
+    margin-top: 120px;
+  }
+#upperbox{
+font-size: 11px;
+
+}
+
+#logo{
+margin-top: 12px;
+
+}
+}
+
+@media only screen and (max-width: 450px){
+  #inputGrid{
+    /* line-height: 800px; */
+    margin-top: 140px;
+  }
+
+#bgimg{
+height:240%;
+}
+#logo{
+top:13%;
+}
+#upperbox{
+font-size: 10px;
+}
+
+}
+@media only screen and (max-width: 369px){
+
+  #inputGrid{
+    /* line-height: 800px; */
+    margin-top: 140px;
+  }
+
+#bgimg{
+height:300%;
+}
+
+#logo{
+margin-top: 17px;
+}
+#inputGrid{
+top: 67%;
+}
+
+}
+@media only screen and (min-width: 250px){
+
+  #inputGrid{
+    /* line-height: 800px; */
+    margin-top: 300px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 250px){
+
+  #inputGrid{
+    /* line-height: 800px; */
+    margin-top: 300px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //woking */
+
+/* @media only screen and (max-width: 550px) {
+    #bgimg{
+     height:60vh;
+    }
+  }
+  
+ @media only screen and (max-width: 600px) {
+    #paperBox{
+    width: 90%;
+    left: 4.5%;
+    }
+    }
+
+    @media only screen and (max-width: 1075px) {
+    #emailPass{
+    padding: 10px 0px 0px 120px;
+    
+
+    }
+    }
+      @media only screen and (max-width: 995px) {
+    #emailPass{
+    padding: 10px 0px 0px 100px;
+     
+    }
+   
+    }
+     @media only screen and (max-width: 965px) {
+    #emailPass{
+    padding: 10px 0px 0px 90px;
+     
+    }
+   
+    }
+      @media only screen and (max-width: 935px) {
+    #emailPass{
+    margin-left: 0px;
+     
+    }
+   
+    }
+
+    
+    
+ 
+    @media only screen and (max-width: 335px) {
+    #signUp{  
+     font-size: 15px;
+    }
+    }
+
+ 
+
+ 
+
+  */

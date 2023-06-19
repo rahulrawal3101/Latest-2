@@ -1,0 +1,61 @@
+
+
+#abcd{
+    display: none;
+}
+#box2{
+    display: none;
+}
+#head2{
+    display: none;
+}
+
+#secondItem{
+    padding:20px 50px 20px 15px;
+}
+#firstItem{
+    padding:20px 15px 20px 50px;
+}
+
+#mainGrid{
+    padding:30px 70px 60px 70px
+}
+
+@media only screen and (max-width: 900px) {
+
+#abc{
+    display: none;
+}
+#abcd{
+    display: block;
+}
+#box{
+    display: none;
+}
+#box2{
+    display: flex;
+}
+#head{
+    display: none;
+
+}
+#head2{
+   display: block;
+}
+ 
+#mainGrid{
+    padding:5px 15px 5px 10px;
+} 
+
+#secondItem{
+    padding:20px 10px 20px 15px;
+}
+#firstItem{
+    padding:20px 10px 20px 15px;
+}
+
+  }
+
+ 
+
+

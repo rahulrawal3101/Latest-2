@@ -1,0 +1,25 @@
+#sorry2{
+  display: none;
+}
+#sorry4{
+   display: none;
+}
+
+@media only screen and (max-width: 400px){
+#sorry2{
+    display: block;
+}
+#sorry1{
+   display: none;
+}
+#sorry4{
+    display:block;
+ }
+
+ #sorry3{
+    display: none;
+ }
+ #firstBox{
+    margin-top: 10px;
+ }
+}

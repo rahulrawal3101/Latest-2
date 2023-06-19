@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1049px) {
+  #secondPaper{
+   margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+ #mainBox{
+ margin-left: 10px;
+
+ }
+ #footer{
+  margin-top: 7%;
+ }
+ #secondPaper{
+   margin-top: 5%;
+  }
+   #secondGrid{
+    margin-top: 5%;
+   }
+   #paperBox{
+    margin-left: 10px;
+   }
+   #secondgridBox{
+    padding: 0px 5px 0px 5px;
+   }
+   #imgbox{
+    width:160px;
+    height: 140px;
+   }
+
+}
+
+@media only screen and (max-width: 410px) {
+ #amount{
+  font-size: 10px;
+ }
+ #secondGrid{
+  font-size: 16px;
+ }
+ #secondGrid{
+    margin-top: 7%;
+   }
+   #upperHeader{
+  overflow-x: scroll;
+}
+}
+@media only screen and (max-width: 992px) {
+#secondPaperText{
+  font-size: 12px;
+}
+#secondPaper{
+  justify-content: space-evenly;
+  height:'52%'
+}
+#neft{
+  font-size: 14px;
+}
+#mainBox{
+  margin-left: 5px;
+}
+}
+
+@media only screen and (max-width: 288px) {
+#secondPaper{
+  height:55%;
+  padding:0px 0px 10px 0px;
+}
+#footer{
+  margin-top: 11%;
+}
+#secondPaperText{
+  font-size: 12px;
+}
+#upperHeader{
+  overflow-x: scroll;
+}
+
+}
+
+
+

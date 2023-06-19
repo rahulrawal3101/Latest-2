@@ -1,0 +1,36 @@
+
+#inputGrid{
+    line-height: 80px;
+}
+
+#inputGridBox{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+ #inputGridBox{
+    width:90%;
+ }
+ #SignupText{
+    font-size: 15px;
+ }
+ #mainHead{
+    font-size: 12px;
+ }
+ #inputSpan{
+    padding:20px ;
+ }
+ #login{
+    font-size: 45px;
+    font-weight: 800px;
+    margin-top: 60px;
+ }
+
+}
+ 

@@ -1,0 +1,283 @@
+#sidebarBox{
+    width:5.0rem;
+    height: 100vh;
+    background-color: #0B2755 ;
+    overflow-y:scroll;
+    position:sticky;
+    top: 0;
+    overflow-x: hidden;
+    color:white;
+    padding: 15px 3px 0px 3px;
+    transition: all 0.26s ease;
+    z-index:9999;
+}
+#sidebarBox {
+    scrollbar-width: auto;
+    scrollbar-color: #040006 #ffffff;
+  }
+
+#sidebarBox::-webkit-scrollbar {
+    width: 0.0000001px;
+  }
+
+#sidebarBox::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+#sidebarBox::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+#sidebarBoxItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding:5px 0px 0px 0px
+}
+#sidebarBoxItems:hover{
+background-color: #384c6d;
+}
+#hamburger{
+display: none;
+}
+#addIcon{
+    display: none;
+}
+#mainCards{
+width: 300px;
+}
+@media screen and (max-width: 5500px) {
+#bigMenuBarMain{
+    display:none;
+}
+}
+@media screen and (max-width: 1230px) {
+#bigMenuBarMain{
+    display:none;
+}
+}
+@media screen and (max-width: 640px) {
+#mainCards{
+width:500px;
+}
+}
+@media screen and (max-width: 536px) {
+#mainCards{
+width:450px;
+}
+}
+@media screen and (max-width: 496px) {
+#mainCards{
+width:420px;
+}
+}
+@media screen and (max-width: 459px) {
+#mainCards{
+width:370px;
+}
+}
+@media screen and (max-width: 398px) {
+#mainCards{
+width:320px;
+}
+}
+@media screen and (max-width: 345px) {
+#mainCards{
+width:270px;
+}
+}
+@media screen and (max-width: 297px) {
+#mainCards{
+width:220px;
+}
+}
+@media screen and (max-width: 246px) {
+#mainCards{
+width:190px;
+}
+}
+@media screen and (max-width: 198px) {
+#mainCards{
+width:160px;
+}
+}
+@media screen and (max-width: 515px) {
+#middlesRightText{
+    font-size: 10px;
+}
+#middleRightButton{
+    font-size: 10px;
+    width: 8rem;
+}
+}
+@media screen and (max-width: 250px) {
+#rightBeforeHamburgerHide{
+    display: none;
+}
+}
+
+@media screen and (max-width: 980px) {
+    #bigMenuBarMain{
+    display:block;
+}
+#sidebarBox{
+   transform: translateX(-65px);
+   width: 0;
+}
+#hamburger{
+display: block;
+margin-right: -30px;
+flex-grow: 1;
+}
+#homepageBox{
+    background-color: #e4e7ed;
+}
+#headerBoxLeft{
+display: none;
+}
+#addIcon{
+    display: block;
+}
+#addButton{
+    display: none;
+}
+}
+
+@media screen and (max-width: 700px) {
+#rightBeforeHamburger{
+    display: none;
+}
+#rightBeforeHamburgerLogo{
+    margin-right: -150px;
+}
+#footerText{
+    font-size: 10px;
+}
+}
+@media screen and (max-width: 250px) {
+  #btnsGeneral{
+  flex-direction: column;
+  align-items: center;
+  margin:0
+}
+#rightBeforeHamburgerLogo{
+    margin-right: -250px;
+}
+}
+
+#bigMenuBar{
+    overflow-y: auto;
+}
+
+#bigMenuBar {
+    scrollbar-width: auto;
+    scrollbar-color:#ffffff;
+  }
+
+#bigMenuBar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+#bigMenuBar::-webkit-scrollbar-track {
+    background:  #0B2755 
+  }
+
+  #bigMenuBar::-webkit-scrollbar-thumb {
+    background-color:white;
+    border-radius: 10px;
+    border: 3px solid  #0B2755  ;
+  }
+  #active::after{
+content: " ";
+border: 3px solid red;
+height: 35px;
+  }
+  #active:hover{
+    background-color: #0B2755;
+  }
+  #horizontalStepper{
+    display: none;
+  }
+  @media screen and (max-width: 592px) {
+      #verticalStepper{
+    display: none;
+  }
+  @media screen and (max-width:603px){
+    #paperHeightManageMails{
+      height: 600px;
+    }
+  }
+  #horizontalStepper{
+    display: flex;
+    margin-bottom: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+  }
+}
+  @media screen and (max-width: 373px) {
+      #verticalStepper{
+    display: none;
+  }
+  #horizontalStepper{
+display: none;
+  }
+  #kycProcessBox{
+    display: none;
+  }
+}
+
+  @media screen and (max-width: 202px) {
+#successKycText{
+font-size: 7px;
+}
+}
+#generalDetailsKycBox {
+background-image: url("https://d10srchmli830n.cloudfront.net/1619690201338_dots.svg");
+background-position: right;
+background-size: 100px 200px;
+background-repeat: no-repeat;
+}
+#generalManageMails{
+background-image: url("https://d10srchmli830n.cloudfront.net/1625649458176_ManageMail.svg");
+background-position: right;
+background-size: 100px 200px;
+background-repeat: no-repeat;
+}
+#managePickUpLocationsBox{
+display: flex;
+align-items: center;
+padding-right:20px
+}
+#modalFormStar::before{
+  display: inline-block;
+    margin-right: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun,sans-serif;
+    line-height: 1;
+    content: "*";
+}
+@media only screen and (max-width: 460px) {
+  #text{
+   font-size: 28px;
+  }
+  #btn{
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+   #text{
+   font-size: 24px;
+   padding:5px;
+  }
+}
+@media only screen and (max-width: 300px) {
+   #text{
+   font-size: 20px;
+   padding:5px;
+  }
+}

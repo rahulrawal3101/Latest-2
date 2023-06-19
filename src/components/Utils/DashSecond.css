@@ -1,0 +1,10 @@
+
+@media only screen and (max-width: 800px) {
+   #smallScreen{
+      justify-content: left;
+   }
+
+     #headBtn{
+      overflow-x: scroll;
+     }
+}
